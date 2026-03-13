@@ -45,3 +45,5 @@ jobs:
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/devops-quiz-ai:latest
             ${{ secrets.DOCKERHUB_USERNAME }}/devops-quiz-ai:${{ github.sha }}
+
+            
